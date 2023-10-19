@@ -22,6 +22,10 @@ public class Project {
         this.updatedAt = updatedAt;
     }
 
+    public Project() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
     public int getId() {
         return id;
     }
@@ -65,6 +69,10 @@ public class Project {
     @Override
     public String toString() {
         return "Project{" + "id=" + id + ", name=" + name + ", description=" + description + ", createdAt=" + createdAt + ", updatedAt=" + updatedAt + '}';
+    }
+
+    public void add(Project project) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
     
