@@ -4,7 +4,6 @@ import java.sql.DriverManager;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
-import javax.naming.spi.DirStateFactory;
 
 public class ConnectionFactory {
     
