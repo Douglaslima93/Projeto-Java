@@ -17,12 +17,12 @@ public class Main {
        //Connection c = ConnectionFactory.getConnection();
         //ConnectionFactory.closeConnection(c);
         
-       // ProjectController projectController = new ProjectController();
+        ProjectController projectController = new ProjectController();
         
-      //  Project project = new Project();
-       // project.setName("Projeto teste");
-       // project.setDescription("description");
-       // projectController.save(project);
+        Project project = new Project();
+        project.setName("Projeto teste");
+        project.setDescription("description");
+        projectController.save(project);
         
 //        project.setName("Novo nome do projeto");
 //       projectController.update(project);
